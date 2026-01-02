@@ -1,0 +1,47 @@
+/* =========================
+   MyOwnCountry - styles
+   Mobile First
+   ========================= */
+
+body {
+  background-color: #f5faff;
+}
+
+/* Cards */
+.card-img-top {
+  object-fit: cover;
+  height: 240px;
+}
+
+/* HERO */
+section.bg-light {
+  border-radius: 12px;
+}
+
+/* Footer */
+footer {
+  font-size: 0.85rem;
+}
+
+/* ====== MOBILE AJUSTES ====== */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .card-img-top {
+    height: 180px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .d-flex.gap-2 {
+    flex-direction: column;
+  }
+}
